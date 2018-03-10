@@ -1,8 +1,14 @@
 html { background: #574926; }
+
+body { background: #dbd3bf; width: 0 auto;height:0 auto; margin: 0 auto; padding: 0 auto;
+
+  font-family: 'Chelsea Market', cursive;line-height: 0 auto; margin: 0 auto; font-size: 16px;}
+  
 body { background: #dbd3bf; width: 100%; margin: 0 auto; padding: 0 auto;
 
  font-family: 'Chelsea Market', cursive;line-height: 0 auto; margin: 0 auto; font-size: 16px; 
     }
+
 
 nav.main {
   background: #574926;
@@ -49,14 +55,20 @@ nav.main a {
   text-align: center; 
  }
 
-
-
 nav.section1 img{
   width:100%;
   heigth:50%;
   border-bottom: 0;
   margin: 0 auto;
   border-radius: 0;
+  
+  }
+
+
+nav.section2 img{
+  width:50%;
+  heigth:25%;
+
   }
 
 nav.section2 img{
@@ -65,9 +77,6 @@ nav.section2 img{
   float: left;
   padding: 0 auto;
   margin: 0 auto;
- 
-  
-  
 }
 
 footer {
@@ -82,6 +91,7 @@ footer .copyright {
 
 footer nav {
   float: right;
+
 }
 
 footer nav ul {
@@ -89,6 +99,7 @@ footer nav ul {
   margin: 0;
   padding: 0;
 }
+
 footer nav li {
   float: left;
 }
@@ -102,4 +113,7 @@ footer nav li a {
 
 footer nav li a:hover {
   color: darkgray;
+
+  
 }
+
