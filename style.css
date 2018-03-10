@@ -1,8 +1,14 @@
 html { background: #574926; }
 body { background: #dbd3bf; width: 100%;
+  
+  
+  font-family: 'Chelsea Market', cursive;line-height: 0 auto; margin: 0 auto; font-size: 16px;}
+  
+ h1 {font-family: 'Chelsea Market', cursive;line-height:.5;font-size: 100px; padding-left:70px; color:#574926; }
 
-   font-family: 'Chelsea Market', cursive;line-height: 0 auto; margin: 0 auto; font-size: 18px; 
-    }
+h2 {font-family: 'Chelsea Market', cursive;font-size: 35px; padding-left:80px; color:#574926; }
+
+h3 {font-family: 'Chelsea Market', cursive;line-height:1.5;font-size: 25px;padding-left:45px; color:#574926; }
 
 nav.main {
   background: #574926;
