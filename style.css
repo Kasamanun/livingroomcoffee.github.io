@@ -82,8 +82,9 @@ nav.section2 img{
   
 }
 
+
 .header {
-width : 100%;
+width : auto;
 height: 200px;
 background: #dbd3bf;
 padding: 10px;
@@ -92,8 +93,10 @@ padding: 10px;
 
 
 .section3 {
-  width: 100%;
-  height: 800px;
+  windows: auto;
+  height: 1100px;
+  marigin:0;
+padding:0;
 }
 
 
@@ -128,6 +131,46 @@ footer nav li a {
   padding-left: 3em;
   text-decoration: none;
   color: #574926;
+}
+
+footer nav li a:hover {
+  color: darkgreen;
+}
+
+
+
+
+
+footer {
+  overflow: auto;
+  background: #574926;
+  padding: 0.5em;
+  
+}
+
+
+footer .copyright {
+  float: left;
+}
+
+footer nav {
+  float: right;
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer nav li {
+  float: left;
+}
+
+footer nav li a {
+  display: inline-block;
+  padding-left: 3em;
+  text-decoration: none;
+  color: #dbd3bf;
 }
 
 footer nav li a:hover {
