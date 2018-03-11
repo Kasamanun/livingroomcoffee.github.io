@@ -10,6 +10,8 @@ h2 {font-family: 'Chelsea Market', cursive;font-size: 35px; padding-left:80px; c
 
 h3 {font-family: 'Chelsea Market', cursive;line-height:1.5;font-size: 25px;padding-left:45px; color:#574926; }
 
+h4 {font-family: 'Chelsea Market', cursive;font-size: 50px; padding:0; color:#574926;}
+
 nav.main {
   background: #574926;
   width:100%;
@@ -81,6 +83,24 @@ nav.section2 img{
 }
 
 
+.header {
+width : auto;
+height: 200px;
+background: #dbd3bf;
+padding: 10px;
+}
+
+
+
+.section3 {
+  windows: auto;
+  height: 1100px;
+  marigin:0;
+padding:0;
+}
+
+
+
 
 footer {
   overflow: auto;
@@ -88,6 +108,7 @@ footer {
   padding: 0.5em;
   
 }
+
 
 footer .copyright {
   float: left;
