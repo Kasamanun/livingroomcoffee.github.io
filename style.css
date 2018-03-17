@@ -105,11 +105,7 @@ padding:0;
 
 footer {
   overflow: auto;
-<<<<<<< HEAD
   background: #574926;
-=======
-  background: #dbd3bf;
->>>>>>> 8a9b7545afb6c49532559ef6fb3ff27e3f03810c
   padding: 0.5em;
   
 }
@@ -136,17 +132,9 @@ footer nav li a {
   display: inline-block;
   padding-left: 3em;
   text-decoration: none;
-<<<<<<< HEAD
   color: #dbd3bf;
-=======
-  color: #574926;
->>>>>>> 8a9b7545afb6c49532559ef6fb3ff27e3f03810c
 }
 
 footer nav li a:hover {
   color: darkgreen;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8a9b7545afb6c49532559ef6fb3ff27e3f03810c
