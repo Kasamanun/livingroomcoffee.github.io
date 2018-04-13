@@ -5,7 +5,7 @@
 
 
     $email_from='livingroomcoffee.tk';
-    $email_subject="Feedback"
+    $email_subject="Feedback";
     $email_body="User Name: $name.\n".
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
