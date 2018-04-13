@@ -48,7 +48,7 @@ nav.main a {
  }
 
 nav.main a:hover {
-  color: #fff;
+  color: #B9C3AA;
 }
 
 .imgContainer { 
@@ -129,5 +129,5 @@ footer nav li a {
 }
 
 footer nav li a:hover {
-  color: #fff;
+  color: #B9C3AA;
 }
