@@ -1,12 +1,12 @@
 html { background: #574926; }
-body { background: #dbd3bf; width: 100%;
+body { background: #dbd3bf; width: 100%; text-align:center;
   
   
   font-family: 'Chelsea Market', cursive;line-height: 0 auto; margin: 0 auto; font-size: 16px;}
   
- h1 {font-family: 'Chelsea Market', cursive;line-height:.5;font-size: 100px; padding-left:70px; color:#574926; }
+ h1 {font-family: 'Chelsea Market', cursive;line-height:.5;font-size: 70px; padding-left:70px; color:#574926; }
 
-h2 {font-family: 'Chelsea Market', cursive;font-size: 35px; padding-left:80px; color:#574926; }
+h2 {font-family: 'Chelsea Market', cursive;font-size: 40px; padding-left:80px; color:#574926; }
 
 h3 {font-family: 'Chelsea Market', cursive;line-height:1.5;font-size: 25px;padding-left:45px; color:#574926; }
 
@@ -16,7 +16,7 @@ nav.main {
   background: #574926;
   width:100%;
   height:70px;
-  align: center;
+  text-align: center;
   font-size: 22px;
 
   }
@@ -55,7 +55,7 @@ nav.main a {
  }
 
 nav.main a:hover {
-  color: darkgreen;
+  color: #fff;
 }
 
 .imgContainer { 
@@ -95,10 +95,71 @@ padding: 10px;
 
 
 .section3 {
-  windows: auto;
+  windows: 0 auto;
   height: 1100px;
   marigin:0;
 padding:0;
+}
+
+div.contact-feedback {  
+  margin-top:150px;
+  margin-bottom:150px;
+  text-transform: uppercase;
+  transition:all 4s ease-in-out;
+    
+}
+
+
+.form-control {
+  
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #574926;
+  font-size: 25px;
+  margin-bottom: 30px;
+  
+}
+
+input{
+  
+  height: 50px;
+}
+
+form .submit{
+  
+  background-color: #B9C3AA;
+  border-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 70px;
+  margin-top: 40px;
+}
+
+form .submit:hover {
+  color:#fff;
+  cursor: pointer;
+  
+  
+}
+
+
+div.contact-info{
+  
+  margin-top:100px; 
+}
+
+
+div.contact-info a {
+  text-decoration: none;
+  color: #574926;
+}
+
+div.contact-info a:hover{
+  
+  color: #fff;
 }
 
 
@@ -136,5 +197,5 @@ footer nav li a {
 }
 
 footer nav li a:hover {
-  color: darkgreen;
+  color: #fff;
 }
